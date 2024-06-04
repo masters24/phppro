@@ -1,0 +1,71 @@
+body {
+  background-image: url("images/registeration-login1.jpg");
+  background-size:cover;
+width:1000;
+}
+
+@media only screen and (min-width: 2000px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.form {
+    margin: auto;
+    width: 550;
+    padding: 30px 40px;
+    background: maroon;
+    border:20px solid black;
+
+}
+h1.login-title {
+    color: white;
+    margin: 0px auto 25px;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+}
+h1.log-text1 {
+color: black;
+    margin: 40px auto 25px;
+    font-size: 85px;
+    text-align: center;
+}
+h1 span{
+	  color:maroon;
+}
+.login-input {
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 35px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 95%;
+    height: 60px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: green;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
