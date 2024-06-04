@@ -1,5 +1,5 @@
 <?php
-include("auth_session.php");
+//include("auth_session.php");
 ?>
 <html>
     <head><meta charset="utf-8">
